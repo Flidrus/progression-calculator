@@ -3,7 +3,7 @@ variable "REPOSITORY_URI" {
 }
 
 resource "aws_lightsail_container_service" "progression_calculator" {
-  name  = "flask-app"
+  name  = "flask-app-2"
   power = "nano"
   scale = 1
 
