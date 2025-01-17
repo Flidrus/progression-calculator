@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1 style='color: blue;'> Kryzhanovskyi Oleksandr </h1>"
+    return "<h1 style='color: blue;'> Gomelskyi Semen </h1>"
 
 
 @app.route('/summa')
